@@ -1,0 +1,30 @@
+.banner {background-color:#101d37;line-height:38px;font-size:12px}
+.banner .container {width:1150px;margin:0 auto}
+.banner .container .channelList {display:table-cell;white-space:nowrap}
+.banner .container .channelList li {display:inline-block;margin-right:21.5px;position:relative}
+.banner .container .channelList li a {color:#a9abab;text-decoration:none}
+.banner .container .channelList li.selected>a,.banner .container .channelList li:hover>a {color:#fff}
+.banner .container .channelList li .childList {display:none;position:absolute;width:61px;top:38px;left:-18px;padding:8px 0;border-bottom-left-radius:2px;border-bottom-right-radius:2px;background-color:#101d37;box-shadow:0 0 8px rgba(0,0,0,.7)}
+.banner .container .channelList li .childList a {display:block;line-height:25px;text-align:center;color:#a9abab}
+.banner .container .channelList li .childList a.selected,.banner .container .channelList li .childList a:hover {color:#fff;background-color:#4c5355}
+.banner .container .channelList li .appQRCode {display:none;position:absolute;top:38px;left:-32px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;background-color:#101d37;box-shadow:0 0 8px rgba(0,0,0,.7);padding:12px;z-index:1}
+.banner .container .channelList li .appQRCode img {width:90px;height:90px}
+.banner .container .channelList li:hover .appQRCode,.banner .container .channelList li:hover .childList {display:block}
+.banner .container .banner-right {display:table-cell;width:1000px;text-align:right;color:#fff}
+.banner .container .banner-right a {color:#fff}
+.banner .container .banner-right .login {display:inline-block;margin-right:20px;position:relative}
+.banner .container .banner-right .login i {vertical-align:-1px;display:inline-block;background-image:url(../images/index1/sprite.png);background-position:-411px -221px;width:12px;height:12px;margin-right:9px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {.banner .container .banner-right .login i {background-image:url(../images/sprite@2x.png);background-size:560px 349px}
+}
+.banner .container .banner-right .login .pushNews {display:inline-block;vertical-align:7px;background-image:url(../images/index1/sprite.png);background-position:-554px -96px;width:5px;height:5px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {.banner .container .banner-right .login .pushNews {background-image:url(../images/sprite@2x.png);background-size:560px 349px}
+}
+.banner .container .banner-right .login .pushNewsList {display:none;position:absolute;z-index:20;top:38px;left:0;padding:8px 0;background-color:#101d37;text-align:left;box-shadow:0 0 8px rgba(0,0,0,.7)}
+.banner .container .banner-right .login .pushNewsList a {display:block;line-height:25px;padding:0 17px;white-space:nowrap}
+.banner .container .banner-right .login .pushNewsList a.selected,.banner .container .banner-right .login .pushNewsList a:hover {color:#fff;background-color:#4c5355;text-decoration:none}
+.banner .container .banner-right .login .unreadNumber {padding:0 3px}
+.banner .container .banner-right .login:hover .pushNewsList {display:block}
+.banner .container .banner-right .phone {display:inline-block}
+.banner .container .banner-right .phone i {vertical-align:-1px;display:inline-block;background-image:url(../images/index1/sprite.png);background-position:-447px -221px;width:12px;height:12px;margin-right:9px}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi) {.banner .container .banner-right .phone i {background-image:url(../images/sprite@2x.png);background-size:560px 349px}
+}
